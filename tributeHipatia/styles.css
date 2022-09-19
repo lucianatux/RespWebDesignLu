@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(90deg, #f9bb77, #f9ddd1, #f9bb77); 
+    color: #1b1b32;
+    font-family: 'Marvel', sans-serif;
+    margin: 0;
+}
+
+#main {
+width: 80%;
+margin: auto;
+align-items: center;
+justify-content: center;
+}
+
+#title {
+width:80%;
+margin: 20px auto;
+text-align: center;
+}
+
+.caption {
+text-align: center;
+}
+
+#img-div {
+width: 80%;
+max-width: 600px;
+margin: auto;
+justify-content: center;
+align-items: center;
+}
+
+#image {
+display: block;
+padding: 0 auto;
+margin: 20px auto;
+border-radius: 10%;
+box-shadow: 5px 5px 10px;
+max-width: 100%;
+height: auto;
+
+}
+
+#img-caption {
+font-size: 1rem;
+margin: 30px;
+}
+
+#tribute {
+padding: auto;
+margin: 5% auto;
+font-size: 1.2rem;
+}
+
+#tribute-info {
+text-align: left;
+}
+
+#tribute-link {
+color: #777777;
+text-decoration: none;
+margin: 0;
+padding: 0;
+}
+
+#tribute-link:hover {
+color: #aa44aa;
+}
+
+hr {
+  height: 3px;
+  background-color: white;
+  box-shadow: 2px 2px 5px #777777;
+}
+
