@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    #navbar {
+      width: 358px;
+    }
+  
+    .main-section {
+      width: 318px;
+    }
+  }
+  
+  @media (max-width: 1199px) and (min-width: 769px) {
+   #navbar {
+      width: 675px;
+    }
+  
+    .main-section {
+      width: 633px;
+    }
+  }
+
+  #navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: auto;
+  }
+
+  .main-section {
+ 
+    margin-left: 20%;
+  }
