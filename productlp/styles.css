@@ -84,9 +84,34 @@
   }
 
   section{
-padding-top: 80px;
+    margin-top: 90px;
   }
   
+#cliente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+input[type='email'] {
+  max-width: 250px;
+  width: 100%;
+  padding: 5px;
+  margin: 15px;
+  font-size: 16px;
+}
+
+input[type='submit'] {
+  background-color: #563a06;
+  box-shadow: 2px 2px 5px black;
+  border-style: none;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+}
+
   .flex-container {
     display: flex;
     background-color: grey;
