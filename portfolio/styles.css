@@ -9,7 +9,7 @@
 
 *{
     font-family: Marvel, sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -53,6 +53,7 @@
 
   navbar > ul> li> a{
     text-decoration: none;
+    font-weight: bold;
     color: var(--sixth-color);
   }
 
@@ -240,14 +241,52 @@
     width: 200px;
     height: 200px;
     object-fit: cover;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 5px 5px 10px black;
   }
 
   /*-------Education-------*/
-  
+  #educacion >ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    list-style: none;
+
+  }
+
+  .cursos{
+    margin: 2px;
+  }
+
+  .cursos > img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    box-shadow: 2px 2px 5px black;
+  }
 
   /*-------Footer-------*/
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
 
+  .social-icons > a {
+    padding: 20px;
+    color: var(--fourth-color);
+  }
+
+  .social-icons > a:hover {
+    color: var(--second-color);
+  }
 
   /*-------MediaQueries-------*/
   
