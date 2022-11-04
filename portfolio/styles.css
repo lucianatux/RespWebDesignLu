@@ -282,6 +282,29 @@
     box-shadow: 2px 2px 5px black;
   }
 
+  .descripcion{
+    font-size: medium;
+  }
+
+  .descripciontec{
+    font-size: large;
+    letter-spacing: 1px;
+  }
+
+  #technologies >ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+    gap: 30px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    list-style: none;
+
+  }
+
   /*-------Footer-------*/
   .social-icons {
     display: flex;
